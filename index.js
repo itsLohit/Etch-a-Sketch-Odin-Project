@@ -4,8 +4,8 @@ const btnGridSize = document.querySelector("#btnGridSize");
 const btnReset = document.querySelector("#btnReset");
 
 
-sketchArea.style.width = "500px";
-sketchArea.style.height = "500px";
+sketchArea.style.width = "400px";
+sketchArea.style.height = "400px";
 sketchArea.style.border = "1px solid red";
 
 
@@ -37,7 +37,7 @@ function createGrid(size=16){
     sketchArea.innerHTML = "";
     for(let i=0; i<(size**2); i++){
         const grid = document.createElement("div");
-        const gridSize = 500
+        const gridSize = 400
         /size;
         grid.classList.add("grid");
         grid.style.height = `${gridSize - 2}px`;
