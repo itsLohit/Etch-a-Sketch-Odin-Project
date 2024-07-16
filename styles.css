@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #1F3044;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#header{
+    color: #2CCCC3;
+    display: flex;
+    font-size: 50px;
+    padding: 20px;
+    font-weight: bolder;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#sketchArea{
+    display: flex;
+    margin: 100px auto;
+    flex-wrap: wrap;
+}
+
+#btnGridSize, #btnReset {
+    color: #5626C4;
+    font-size: large;
+    font-weight: bolder;
+    padding: 30px;
+    border: 5px solid #E60576;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
